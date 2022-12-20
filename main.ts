@@ -21,10 +21,10 @@ basic.forever(function () {
         }
     }
     if (I == 3) {
-        wuKong.setMotorSpeed(wuKong.MotorList.M2, 10)
+        wuKong.setMotorSpeed(wuKong.MotorList.M2, 15)
     }
     if (I == 4) {
-        wuKong.setMotorSpeed(wuKong.MotorList.M2, -10)
+        wuKong.setMotorSpeed(wuKong.MotorList.M2, -20)
     }
     if (I == 5) {
         wuKong.setMotorSpeed(wuKong.MotorList.M1, -80)
